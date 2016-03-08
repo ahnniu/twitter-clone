@@ -29,10 +29,11 @@ group :development, :test do
   gem 'spring'
   gem 'guard-rspec', '~> 4.6', require: false
   gem 'guard-ctags-bundler', '~> 1.4'
+  gem 'rspec-rails', '~> 3.0'
 end
 
 group :test do
-  gem 'rspec-rails', '~> 3.0'
+  
 end
 
 # Use ActiveModel has_secure_password
