@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Components</title>
+  <link rel="stylesheet" href="./css/global_normalize.css">
+  <link rel="stylesheet" href="./css/global_library.css">
+  <link rel="stylesheet" href="./css/site_common.css">
+  <link rel="stylesheet" href="./css/site_icon.css">
+  <link rel="stylesheet" href="./css/site_component.css">
+  <link rel="stylesheet" href="./css/site_frame.css">
+</head>
+<body>
+<h1>菜单</h1>
+
+<ul class="nav">
+  <li class="nav_item">
+    <a href="#" class="c667 tdn">
+      <span class="fa fa-home fa-2x"></span>
+      <span class="pl1">Home</span>
+    </a>
+  </li>
+  <li class="nav_item">
+    <a href="#" class="c667 tdn">
+      <span class="fa fa-bell fa-2x"></span>
+      <span class="pl1">Notifications</span>
+    </a>
+  </li>
+  <li class="nav_item">
+    <a href="#" class="c667 tdn">
+      <span class="fa fa-envelope fa-2x"></span>
+      <span class="pl1">Messages</span>
+    </a>
+  </li>
+</ul>
+
+
+
+<h1 class="mt30">搜索框</h1>
+
+<div class="dib bde1e bgf5f search_box">
+  <form action="">
+    <input type="text" placeholder="Search Twitter" id="head_search" class="search_input bd_none bgt c667">
+    <button type="submit" class="bgt bd_none c667">
+      <i class="fa fa-search"></i>
+    </button>
+  </form>
+</div>
+
+<h1 class="mt30">小头像</h1>
+<a href="#">
+  <img src="./images/mockup/ahnniu_slog_normal.jpg" alt="account id" class="size32 bde1e br4">
+</a>
+
+<h1 class="mt30">Tweet按钮</h1>
+<button class="bg008 bdt br4 tweet_button">
+  <span class="fa fa-edit fa-2x"></span>
+  <span>Tweet</span>
+</button>
+
+
+<h1 class="mt30">Twiter图标</h1>
+<div class="logo_containner">
+  <div class="twitter_logo">
+    <a href="#" class="c008 f11em">
+      <span class="fa fa-twitter fa-2x"></span>
+    </a>
+  </div>
+</div>
+
+<h1 class="mt30">导航条(菜单 + logo + 头像 + 搜索 + Tweet)</h1>
+<div class="header">
+  <div class="twitter_logo">
+    <a href="#" class="c008 f11em">
+      <span class="fa fa-twitter fa-2x"></span>
+    </a>
+  </div>
+  <div class="header_left">
+    <ul class="nav">
+      <li class="nav_item">
+        <a href="#" class="c667 tdn">
+          <span class="fa fa-home fa-2x"></span>
+          <span class="pl1">Home</span>
+        </a>
+      </li>
+      <li class="nav_item">
+        <a href="#" class="c667 tdn">
+          <span class="fa fa-bell fa-2x"></span>
+          <span class="pl1">Notifications</span>
+        </a>
+      </li>
+      <li class="nav_item">
+        <a href="#" class="c667 tdn">
+          <span class="fa fa-envelope fa-2x"></span>
+          <span class="pl1">Messages</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <ul class="header_right">
+    <li class="header_ritem">
+      <div class="dib bde1e bgf5f search_box">
+        <form action="">
+          <input type="text" placeholder="Search Twitter" id="head_search" class="search_input bd_none bgt c667">
+          <button type="submit" class="bgt bd_none c667">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </li>
+
+    <li class="header_ritem">
+      <a href="#" class="dib">
+        <img src="./images/mockup/ahnniu_slog_normal.jpg" alt="account id" class="size32 bde1e br4">
+      </a>
+    </li>
+
+    <li class="header_ritem">
+      <button class="bg008 bdt br4 tweet_button">
+        <span class="fa fa-edit fa-2x"></span>
+        <span>Tweet</span>
+      </button>
+    </li>
+  </div>
+</ul>
+
+</body>
+</html>

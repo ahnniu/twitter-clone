@@ -1,0 +1,42 @@
+
+/* color */
+/* 小字体, 次级字体 */
+.c667 { color: #66757f; }
+/* 标题, 主体，正文 */
+.c292 { color: #292f33; }
+/* 链接颜色 */
+.c1b9 { color: #1b95e0; }
+
+/* 不常见链接，如footer等*/
+.c889 { color: #8899a6; }
+/* 字符图标颜色*/
+.c1d1 { color: #1da1f2; }
+.c008 { color: #0084b4; }
+/* border */
+.bde1e { border: 1px solid #e1e8ed; }
+.bbe1e { border-bottom: 1px solid #e1e8ed; }
+
+.bdt { border: 1px solid transparent; }
+.br4 { border-radius: 4px; }
+.br5 { border-radius: 5px; }
+.br12 { border-radius: 12px; }
+
+/* background color */
+
+/* Profile background */
+.bg008 { background-color: #0084b4; }
+
+/* Page Contaniner background */
+.bgf5f { background-color: #f5f8fa; }
+
+/* 透明 */
+.bgt { background: transparent; }
+
+/* 常见大小 */
+.size32 { width: 32px; height: 32px; }
+
+/* 字体大小 */
+.f10em { font-size: 1.0em; }
+.f11em { font-size: 1.1em; }
+.f12em { font-size: 1.2em; }
+.f13em { font-size: 1.3em; }

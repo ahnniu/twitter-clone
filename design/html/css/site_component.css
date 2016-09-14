@@ -1,0 +1,79 @@
+
+.nav {
+  font-size: 0;
+}
+.nav_item {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 5px 14px 5px 4px;
+  font-size: 13px;
+  height: 40px;
+}
+
+.nav_item:hover {
+  border-bottom: 4px solid #0084b4;
+  transition-property: border-bottom;
+  transition-duration: .15s;
+  transition-timing-function: ease-in-out;
+}
+
+.nav_item:hover a {
+  color: #0084b4;
+}
+
+.search_box {
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-right: 5px;
+  font-size: 1.3em;
+}
+
+.search_input {
+  height: 26px;
+  width: 160px;
+}
+
+.search_input:focus {
+  color: #292f33;
+}
+
+.tweet_button {
+  padding: 0 10px;
+  height: 32px;
+  color: white;
+  font-size: 1.2em;
+}
+
+.logo_containner {
+  position: relative;
+}
+
+.twitter_logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+
+}
+
+.header {
+  position: relative;
+}
+
+.header_left {
+  position: absolute;
+  top: 0;
+  left: 10%;
+
+}
+
+.header_right {
+  position: absolute;
+  top: 0;
+  right: 10%;
+}
+
+.header_ritem {
+  display: inline-block;
+  padding: 5px 14px 5px 4px;
+
+}
