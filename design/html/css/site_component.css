@@ -5,12 +5,11 @@
 .nav_item {
   display: inline-block;
   box-sizing: border-box;
-  padding: 5px 14px 5px 4px;
+  padding: 5px 14px 5px 10px;
   font-size: 13px;
-  height: 40px;
 }
 
-.nav_item:hover {
+.nav_item_selected, .nav_item:hover {
   border-bottom: 4px solid #0084b4;
   transition-property: border-bottom;
   transition-duration: .15s;
@@ -23,14 +22,14 @@
 
 .search_box {
   border-radius: 20px;
-  padding-left: 15px;
-  padding-right: 5px;
+  padding: 5px 5px 5px 12px;
   font-size: 1.3em;
 }
 
 .search_input {
-  height: 26px;
+  height: 22px;
   width: 160px;
+  padding: 0;
 }
 
 .search_input:focus {
@@ -38,42 +37,44 @@
 }
 
 .tweet_button {
-  padding: 0 10px;
-  height: 32px;
+  height: 34px;
   color: white;
-  font-size: 1.2em;
-}
-
-.logo_containner {
-  position: relative;
-}
-
-.twitter_logo {
-  position: absolute;
-  top: 0;
-  left: 50%;
-
+  font-size: 1.3em;
 }
 
 .header {
   position: relative;
+  height: 46px;
+}
+
+.header_logo {
+  position: absolute;
+  top: 0px;
+  left: 49%;
+}
+
+.twitter_logo {
+  line-height: 46px;
+  vertical-align: bottom;
 }
 
 .header_left {
   position: absolute;
-  top: 0;
-  left: 10%;
-
+  top: 6px;
+  left: 4%;
 }
 
 .header_right {
   position: absolute;
-  top: 0;
-  right: 10%;
+  top: 12px;
+  right: 4%;
 }
 
 .header_ritem {
   display: inline-block;
-  padding: 5px 14px 5px 4px;
+  margin: auto 10px;
+  line-height: 0;
+  vertical-align: middle;
 
 }
+
