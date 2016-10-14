@@ -99,3 +99,17 @@
   margin-top: 50px;
 }
 
+.tab_header_item {
+  display: inline-block;
+}
+
+.tweet_header a {
+  text-decoration: none;
+}
+.tweet_header a:hover .name {
+  color: #1da1f2;
+  text-decoration: underline;
+}
+.tweet_header a:hover .username {
+  text-decoration: none;
+}
