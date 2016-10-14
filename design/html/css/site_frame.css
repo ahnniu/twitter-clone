@@ -1,0 +1,33 @@
+.page_container {
+  
+}
+
+.container {
+  padding: 0 50px;
+}
+
+.profile_header {
+  height: 175px;
+}
+
+.col3_main {
+  width: 100%;
+  float: left;
+}
+
+.col3_body {
+  margin: 0 300px;
+}
+
+.col3_left, .col3_right {
+  width: 300px;
+  float: left;
+}
+
+.col3_left {
+  margin-left: -100%;
+}
+
+.col3_right {
+  margin-left: -300px;
+}

@@ -301,3 +301,10 @@
 .inline_five, .float_five{width:19.9%;}
 .inline_six, .float_six{width:16.6%;}
 .inline_fix{display:inline-block; width:100%; height:0; overflow:hidden;}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
