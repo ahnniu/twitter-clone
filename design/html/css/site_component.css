@@ -107,9 +107,44 @@
   text-decoration: none;
 }
 .tweet_header a:hover .name {
-  color: #1da1f2;
+  color: #0084B4;
   text-decoration: underline;
 }
 .tweet_header a:hover .username {
   text-decoration: none;
+}
+
+.tweet_link {
+  color: #0084B4;
+  text-decoration: none;
+}
+
+.tweet_link:hover, .tweet_link:focus {
+  color: #0084B4;
+  text-decoration: underline;
+}
+
+.tweet_action {
+  width: 60px;
+  height: 30px;
+}
+
+.icon_reply, .icon_retweet, .icon_heart, .icon_bars{
+  color: #aab8c2;
+}
+
+.tweet_action:hover .icon_reply {
+  color: #0084B4;
+}
+
+.tweet_action:hover .icon_retweet {
+  color: #19cf86;
+}
+
+.tweet_action:hover .icon_heart {
+  color: #e81c4f;
+}
+
+.tweet_action:hover .icon_bars {
+  color: #0084B4;
 }
